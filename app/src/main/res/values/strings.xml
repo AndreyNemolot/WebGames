@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WebGames</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_greeting">Welcome to WebGames App</string>
+
+    <string name="first_game_name">Ramses Treasure</string>
+    <string name="first_game_path">file:///android_asset/games/game1/index.html</string>
+
+
+    <string name="second_game_name">2048</string>
+    <string name="second_game_path">file:///android_asset/games/game2/index.html</string>
+
+
+    <string name="permission_explain">Без разрешения игра не будет работать</string>
+
+
+</resources>

@@ -52,7 +52,7 @@ public class FirstGame extends AppCompatActivity
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("file:///android_asset/games/game1/index.html");
+        webView.loadUrl(getResources().getString(R.string.first_game_path));
     }
 
     @Override

@@ -56,7 +56,7 @@ public class SecondGame extends AppCompatActivity
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ONLY);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
-        webView.loadUrl("file:///android_asset/games/game2/index.html");
+        webView.loadUrl(getResources().getString(R.string.second_game_path));
     }
 
     @Override
